@@ -112,7 +112,7 @@ smudges would make the side surfaces ugly. So i switched to epoxy glue to combin
 ![Keyboard on desk](./content/24-on-desk.jpg)
 
 Showcase video
-![Showcase video](https://www.youtube.com/watch?v=WadnJnXvsTM)
+{% include youtube.html id="WadnJnXvsTM" %}
 
 
 
