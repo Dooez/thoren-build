@@ -2,9 +2,10 @@
 This is a small build log of my keyboard.
 
 In early 2024 I've build my first split keyboard (slightly modified corne) and loved it.
-I used boba u4 switches, end while they feel nice and barely make a sound, they felt somewhat heavy.
+I used boba u4 switches, end while they feel nice and barely make a sound, but they feel somewhat heavy.
 The first keyboard used a silicone bottom, and i really like the grippiness. 
 I wanted to try a smaller spaced low-profile keyboard, so I designed and ordered some PCBs. 
+The PCB is reversible with 18x17 spacing.
 The layout is still very similar to corne, but the pinkie columns have a more significant stager and I have an 
 additional thumb key.
 
@@ -69,7 +70,8 @@ The normal pins if cut flush under the plastic produce almost identical half-pin
 
 Next the case and switches are installed.
 The case is held in place entirely on the switches. I couldn't find a way to make a mounting solution that i liked,
-but this proved to be good enough for me. The case is resing printed from an engineering resin.
+but this proved to be good enough for me. The case is MSLA printed from an engineering resin.
+The switches are Kailh Black Cloud.
 ![Keyboard without keycaps](./content/12-case-buttons.jpg)
 
 When i bought switches, i did not realize that there are none commercial keycaps with 
@@ -113,6 +115,12 @@ smudges would make the side surfaces ugly. So i switched to epoxy glue to combin
 
 Showcase video
 {% include youtube.html id="WadnJnXvsTM" %}
+
+## Afterthoughts
+The case being the same height as the keys was challenging for a couple of days, 
+as I had to adjust some of my finger placemtn habits. Now i dont hit the case instead of a key anymore.
+The switches seem to be pre-lubed. They feel good, and i find the sound pleasant.
+The board is quite loud however, and i am thinking about trying silent switches.
 
 
 
