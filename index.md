@@ -130,4 +130,6 @@ I used shore 20 silicone with tin hardener (platinum silicone is unlikely to ful
 It grips the surface really well, and i hope it helps to keep the board noise to the minimum.
 
 I named the keyboard Thoren.
+The files are available in the [Github repo](https://github.com/Dooez/thoren-build), but I am not 
+ready to provide the support if anyone is willing to build it.
 I hope you enjoyed reading about me building it :)
