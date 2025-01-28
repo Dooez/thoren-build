@@ -1,0 +1,472 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1117b84b-8ed1-4a09-b269-5142e7566fe3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Keyboard:choc_sod123_2sided"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Keyboard:choc_hotswap_18_17_sod123"
+				(at 0.508 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "choc_sod123_2sided_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 6.35 -2.54) (xy 5.08 -5.08) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "choc_sod123_2sided_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "R_bot"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "C_bot"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 52.07 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c179708c-0eca-4e0e-9c4c-3d5459a719e1")
+	)
+	(junction
+		(at 64.77 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7331d08-1902-4c58-841e-bf4358edd5d2")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.88) (xy 52.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7fac16-0121-405b-8f12-0dd50f532711")
+	)
+	(wire
+		(pts
+			(xy 64.77 66.04) (xy 66.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca649d8-87fc-4ce6-bf98-59826ce83f42")
+	)
+	(wire
+		(pts
+			(xy 64.77 63.5) (xy 64.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b266ad-b449-48b3-a645-b4990ef0bb39")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93652bd-1010-450f-bbf7-6af9da3953be")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 66.04 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8456040c-9813-4926-8311-d64a62256b5c")
+	)
+	(hierarchical_label "R"
+		(shape input)
+		(at 50.8 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88cc0c1c-cb95-4c1b-9a10-95561749ed61")
+	)
+	(symbol
+		(lib_id "Keyboard:choc_sod123_2sided")
+		(at 57.15 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24abc82a-c38a-48ab-aa03-5d69d19f072a")
+		(property "Reference" "SW14"
+			(at 57.15 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 59.1185 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard:choc_hotswap_18_17_sod123"
+			(at 57.658 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09fb107d-229a-45d0-804f-a8d8553eed4d")
+		)
+		(pin "1"
+			(uuid "c986dac7-5b58-4ff6-831b-0f03067e2bed")
+		)
+		(pin "3"
+			(uuid "6e4bc9b7-b2fa-4dbc-a368-68aa049a2fef")
+		)
+		(pin "4"
+			(uuid "0a9efadd-84cd-4ba5-879b-c79a9a5f156a")
+		)
+		(instances
+			(project "thorne"
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/19243329-3a8c-48ea-a871-847eff365b35"
+					(reference "SW14")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/26e2121d-9816-4dfb-91e5-d6dbcd4d45be"
+					(reference "SW15")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/3a28c0b0-68a4-49be-9b43-9dfa1fb73d13"
+					(reference "SW21")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/3d595b5c-c10d-4cd7-87c3-484ba84bb64f"
+					(reference "SW6")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/4f3ee77d-faa8-4d74-b854-0e0085301f4f"
+					(reference "SW9")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/7649680c-edb9-43e4-bc61-51fc7b536e40"
+					(reference "SW13")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/77e84e19-8667-476f-8a21-df24b614da52"
+					(reference "SW10")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/7ee03189-d227-4675-a5c5-5ca3ba1fca06"
+					(reference "SW4")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/7f765f2a-5124-419a-b132-d2ff76b470a0"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/877ecb5e-0bf1-4dd7-a1b3-fcb714ecd199"
+					(reference "SW20")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/8a83d4bc-5f06-449b-a7f5-44134d8e0a25"
+					(reference "SW16")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/99237c90-35f6-4fca-a1a6-cbb27f1c9d7d"
+					(reference "SW8")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/a3731e65-aed4-4c82-b9e9-9a6270e520ca"
+					(reference "SW19")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/af411657-1665-4ac0-a668-d71b848a97ab"
+					(reference "SW12")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/b914152c-d6da-4045-a5f4-4ec01aa808ef"
+					(reference "SW11")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/b9ff208e-867b-48a4-9617-7dd748477699"
+					(reference "SW2")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/c19d6fdc-4d7b-4b9b-b273-0801f3bacfb5"
+					(reference "SW5")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/d377ddc7-8d33-4fdb-8409-fa390742d223"
+					(reference "SW1")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/db27da97-c260-4225-bb21-27b670ae1ee5"
+					(reference "SW7")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/e3896f3c-a218-4dc8-af1c-f66ab7a82c21"
+					(reference "SW22")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/e6eab4cf-0d13-4d82-9376-f4c97e46fd5f"
+					(reference "SW18")
+					(unit 1)
+				)
+				(path "/2e3a778a-53cf-429d-8633-acce3098d47d/fbc13cbe-cf94-4bb3-8494-cb8a31b240e3"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,186 @@
+(footprint "switch_SSSS811101"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "PSW1"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5d5e63c9-48e4-4c82-9407-e0b4e46a068a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0 1.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a11242d-bc12-4b78-8aa9-87da4bb0dc3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e46ffa6f-9127-4369-82b1-b4ab708d2d3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4248fba-edd4-4e0d-9288-170da966f34b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4534df1-4309-4d48-b5af-abf691f16296")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "dnp" ""
+		(at 235.2 -68.8 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c911b9a8-b9ac-4edd-b5aa-fb98e522e251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00a7adae-517a-4a5d-809c-b8f3dc0a28ef")
+	)
+	(fp_line
+		(start -1.5 3)
+		(end 1.5 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9db876f-c27c-41a1-8325-b67a1cc5277d")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ce8eaf5-28e9-42e8-8f20-bea1b56b8db5")
+	)
+	(fp_line
+		(start 1.5 3)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0ec3a3c-adcb-4ffc-8078-bb061a479198")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 0)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "589a2dc8-9069-451f-b420-61324bf5cb1c")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 0)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0075a15a-b008-4dd2-a25f-6267a0bb933a")
+	)
+	(pad "1" smd rect
+		(at -2.25 -1.75)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "356851e9-134a-4f3e-aa4b-b8ced5c17d91")
+	)
+	(pad "2" smd rect
+		(at 0.75 -1.75)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc083308-d8b0-462b-bc1d-aaaa1fced36d")
+	)
+	(pad "3" smd rect
+		(at 2.25 -1.75)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c237f656-c9d3-4132-a616-4f716f5b96d7")
+	)
+	(pad "4" smd rect
+		(at -3.65 1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "88012447-b999-413c-9e6b-b98b6c7e0e82")
+	)
+	(pad "5" smd rect
+		(at -3.65 -1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1db5681-d449-407a-994d-1804f6d9588c")
+	)
+	(pad "6" smd rect
+		(at 3.65 -1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "55b54de6-55ec-4b12-a6cd-09eed480d1d9")
+	)
+	(pad "7" smd rect
+		(at 3.65 1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "db7a8990-2040-4833-ac6a-bb7f810b6c6c")
+	)
+	(model "C:/Users/cwiggins/Downloads/keyboards/keeblib.pretty/3d/SSSS811101.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
