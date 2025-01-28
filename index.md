@@ -26,13 +26,13 @@ The carcass is printed on MSLA printer, with a total thickness of 1.5mm, 0.6mm h
 The hole orientation was chosen for an easy printing vertically at 45°.
 
 To work with both V1 and V2 chocs I needed a button imitator.
-First desgin was monolith, which proved to be a very bad desicion.
+First desgin was monolith, which proved to be a bad desicion.
 It tended to warp during printing and breaking a single pin would waste
 the whole part. 
 ![Monolith button immitator](./content/2-bad-imitator.jpg)
 A composit design with replaceable individual parts for each button worked much better.
-You can see a half-broken thin stem to be replaced on the picture.
 ![Composit button immitator](./content/3-imitator.jpg)
+You can see a half-broken thin stem to be replaced on the picture.
 
 Imitator is then installed and a first thin layer of silicone is poured.
 ![Pcb with immitator installed](./content/4-imitator-installed.jpg)
@@ -42,7 +42,7 @@ covered to form a bottom surface, a vaccuum is needed to make a good pour before
 A first layer is needed to seal all of the through holes in the pcb, including
 hot swap sockets. And if the holes in the sockets are not sealed 
 during the vaccuumation, the experience shows that the silicone will get in :(
-The first layer is not coverd, so any trapped air can be poked with a needle.
+The first layer is not covered and is poured only over open parts of the pcb, so any trapped air can be poked with a needle.
 
 ![Cover for the bottom surface](./content/6-cover.jpg)
 The cover design took multiple iterations and proved that the carcass design is
@@ -55,6 +55,7 @@ it is much more viscous and does not level under gravity well, which may cause b
 
 To prevent silicone from spilling when it bubbles under vacuum, a temporary wall is installed.
 ![Pcb with side walls](./content/7-sides-installed.jpg)
+![Pcb in a vacuum chamber](./content/8-vacuum-chamber.jpg)
 After silicone finshed forming the bubles under the vacuum, the parts are extracted from the vacuum chamber, 
 side walls are removed and a cover is placed on top, forcing the excess silicone out. 
 I used office clamps to apply pressure. Sometimes they've applied too much force, which in combination with
